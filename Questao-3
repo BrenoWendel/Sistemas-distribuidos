@@ -44,3 +44,5 @@ if __name__ == "__main__":
     race = Race()
     race.create_racers()
     race.start_race()
+
+# printa 1000 Racers de forma aleatória, porém todos pares.
