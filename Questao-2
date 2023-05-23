@@ -26,3 +26,12 @@ if __name__ == "__main__":
     race = Race()
     race.create_racers()
     race.start_race()
+
+# a)	Como se deu o comportamento dos prints? 
+# Os prints aconteceram de forma totalmente aleatória, visto que as threads executaram simultaneamente disputando constantemente qual escreve primeiro.
+ 
+# b)	Adiciona um tempo de espera (usando o método sleep) nos Racers, o que houve com comportamento do sistema?  
+#Inicialmente ele imprime 10 linhas dos Racers de 1 a 10 respectivamente e depois passa a imprimir de forma aleatória em intervalos de 1 segundo (tempo determinado para o sleep), conseguindo realizar as vezes 2 prints, outras apenas 1 nesse meio tempo.
+
+# c)	Utilize o método setPriority (java) para definir as condições de corrida. Houve mudanças na execução? Se sim, descreva-as. 
+# fizemos em python
