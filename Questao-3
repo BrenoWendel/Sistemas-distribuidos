@@ -45,4 +45,4 @@ if __name__ == "__main__":
     race.create_racers()
     race.start_race()
 
-# printa 1000 Racers de forma aleatória, porém todos pares.
+# printa 1000 Racers de forma aleatória, porém todos pares. entretanto, ao adicionar uma pequena pausa (sleep) dentro do loop do método run() da classe Racer, ele passou a imprimir apenas numeros impares.
